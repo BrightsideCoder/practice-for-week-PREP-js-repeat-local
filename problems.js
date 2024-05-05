@@ -44,6 +44,9 @@ function wordWithinArray(word, arr) {
     boolean that returns true if that string is located inside of the array, or
     false if it does not. Use `Array.indexOf`. */
     // Your code here
+    if (arr.indexOf(word != -1)) {
+        return true;
+    }
 };
 
 function echo(str) {
