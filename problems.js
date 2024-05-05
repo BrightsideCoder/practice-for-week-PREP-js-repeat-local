@@ -19,10 +19,16 @@ function averageOfFour(num1, num2, num3, num4) {
 };
 
 function doubler(nums) {
-    /* Takes an array of numbers and returns a new array where every element of
-    the original array is multiplied by 2. */
-    // Your code here
+	/* Takes an array of numbers and returns a new array where every element of
+	the original array is multiplied by 2. */
+	// Your code here
+	let newArr = [];
+	for (let num of nums) {
+	  newArr.push(num * 2);
+	};
+	return newArr;
 };
+
 
 function combineArrays(arr1, arr2) {
     /* Takes in two arrays of numbers and returns the two arrays combined into
