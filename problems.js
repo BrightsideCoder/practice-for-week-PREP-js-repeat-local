@@ -1,6 +1,7 @@
 function divideByThree(num) {
     /* Returns the passed in number argument divided by three. */
     // Your code here
+    return num / 3;
 };
 
 function averageOfTwo(num1, num2) {
