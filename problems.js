@@ -127,6 +127,16 @@ function aCounter(word) {
     return count;
     */
     // Your code here
+
+    let count = 0;
+    for (let i = 0; i < word.length; i++) {
+        let char = word[i];
+
+        if (char === "a" || char === "A") {
+            count++;
+        }
+    }
+    return count;
 };
 
 module.exports = {
