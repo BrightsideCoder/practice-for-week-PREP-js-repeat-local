@@ -102,6 +102,10 @@ function isSubString(searchString, subString) {
     `true` if `subString` is a part of the`searchString`, regardless of upper
     or lower case, and `false` if otherwise. */
     // Your code here
+    let lowercaseSearchString = searchString.toLowerCase();
+    let lowercaseSubString = subString.toLowerCase();
+
+    return lowercaseSearchString.indexOf(lowercaseSubString) != -1;
 };
 
 function aCounter(word) {
