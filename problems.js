@@ -14,6 +14,8 @@ function averageOfFour(num1, num2, num3, num4) {
     /* Takes in four numbers. The function should return the average of all of
     the numbers. */
     // Your code here
+    let average = (num1 + num2 + num3 + num4) / averageOfFour.length;
+    return average;
 };
 
 function doubler(nums) {
